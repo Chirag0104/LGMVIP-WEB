@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 /* NAVBAR */
 
@@ -10,7 +13,7 @@
     display: flex;
     top: 0px;
     align-items: center;
-    
+    /* position: fixed; */
 }
 
 #logo{
@@ -55,21 +58,27 @@
 }
 
 #home-left{
-    margin-top: 50px;
+    margin-top: 40px;
+    /* border: 2px solid black; */
+    width: 33%;
+    
 }
 
 #main-text{
     margin-top: 50px;
-    
+    text-align: left;
 }
 
 #secondary-text{
+    margin-top: 25px;
     display: flex;
+    text-align: left;
 }
 
 #home-right{
     margin-left: 150px;
     margin-top: 50px;
+    /* border: 2px solid black; */
 }
 
 #home-right img{
@@ -77,6 +86,139 @@
     width: 500px;
 }
 
-h1{
+#container{
+    justify-content: center;
+}
+
+#container h1{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#main-content{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#content{
+    /* width: 33%; */
+    font-size: 1.5rem;
+    margin-top: 40px;
+}
+
+
+
+#container-image img{
+    height: 200px;
+    width: 300px;
+}
+
+#box{
+    display: flex;
+    justify-content: center;
+}
+
+#left-box,#right-box,#middle-box{
+    padding: 20px;
+    margin:20px;
+}
+
+.iconbell{
+    background-color:#401253;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px 10px 30px 0;
+    border: 2px solid black;
+    text-align: center;
+    justify-content: center;
+}   
+
+.iconbell .fa{
+    font-size: 40px;
+    color: snow; 
+    padding-top:15px ;
+    justify-content: center;
+}
+
+.button3{
+    background-color:rgb(228, 228, 23);
+    height:40px;
+    width: 120px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    border: none;
+}
+
+.button3:hover{
+    background-color:#401253;
+    color: white;
+}
+
+.projects-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.projects-container img{
+    height: 300px;
+    width: 379.9px;
+    margin-bottom: 20px;
+    /* padding: 10px;
+    margin:10px; */
+}
+
+#project h1,#pricing-table h1,#video-project h1{
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.projects-card{
+    background-color: rgb(238, 229, 229);
+    width: 100%;
+    margin-top: 10px;
+}
+
+.projects-card:hover{
+    background-color: rgb(228, 228, 23);
+}
+
+.button{
+    background-color: white;
+    color: black;
+    height:40px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.button:hover{
+    background-color:#401253;
+    color: white;
+}
+
+.pricediv{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.price-card{
+    padding: 20px;
+    margin:20px;
     text-align: center;
 }
+
+.border-div{
+    padding: 20px 60px 20px 60px;
+    border-left: 2px solid rgb(179, 176, 176);
+    border-right: 2px solid rgb(179, 176, 176);
+}
+
