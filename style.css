@@ -172,7 +172,7 @@ html{
     margin:10px; */
 }
 
-#project h1,#pricing-table h1,#video-project h1,#video-container h1,#team-heading h1{
+#project h1,#pricing-table h1,#video-project h1,#video-container h1,#team-heading h1,{
     text-align: center;
     margin-top: 40px;
     font-weight: bold;
@@ -255,19 +255,20 @@ html{
 #team-member{
     display:flex;
     flex-wrap: wrap;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 #team-member{
     justify-content: center;
     text-align: center;
-    /* border: 2px solid black; */
     margin: auto;
+    margin-top: 50px;
 }
 
 #member{
     padding:10px;
-    /* border: 2px solid black; */
-    margin: 10px 80px 10px 80px;
+    margin: 10px 40px 10px 40px;
     justify-content: center;
 
 }
@@ -323,7 +324,6 @@ html{
 }
 
 #member .social ul li a{
-    /* display: block; */
     font-size: 20px;
     text-align: center;
     justify-content: center;
@@ -333,4 +333,22 @@ html{
     padding-right: 10px;
     margin-top: 130px;
     text-align: center;
+}
+
+#newsletter-section{
+    position: relative;
+}
+
+.newsletter-signup-container img{
+    position: absolute;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+#newsletter-section h1{
+    text-align: center;
+    color:#003304;
+    padding-top: 40px;
+    margin-top: 20px;
+    font-weight: bold;
 }
