@@ -455,6 +455,7 @@ input:focus{
     width:50%;
     background-color: #ffc229;
     padding-left: 20px;
+    height: 580px;
 }
 
 #contact-form input{
